@@ -1,13 +1,16 @@
-vsim work.tb_full_adder_2b
-# vsim work.tb_full_adder_2b 
-# Start time: 11:01:29 on May 07,2026
-# Loading work.tb_full_adder_2b
-# Loading work.full_adder_2b
+vsim work.tb_full_adder_4b
+# vsim work.tb_full_adder_4b 
+# Start time: 13:16:26 on May 07,2026
+# Loading work.tb_full_adder_4b
+# Loading work.full_adder_4b
 # Loading work.half_adder
 # Loading work.full_adder
-add wave -position insertpoint sim:/tb_full_adder_2b/*
-run
+add wave -position insertpoint  \
+sim:/tb_full_adder_4b/A \
+sim:/tb_full_adder_4b/B \
+sim:/tb_full_adder_4b/S
+# Break key hit
 run -all
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/FPGA_DEMO/T09/full_adder_2b/wave(2b).do
-# End time: 11:06:08 on May 07,2026, Elapsed time: 0:04:39
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/FPGA_DEMO/T09/FA_2b4b/wave(4b).do
+# End time: 13:17:03 on May 07,2026, Elapsed time: 0:00:37
 # Errors: 0, Warnings: 1

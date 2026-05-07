@@ -55,6 +55,29 @@ Z9 !s108 1778122616.000000
 !i113 1
 R6
 R7
+vfull_adder_4b
+!s110 1778130794
+!i10b 1
+!s100 b?HV7aLMUNm^FocLV0KzA1
+R1
+I^X[47zJmZ]kbb9]iMk[ET0
+R2
+Z10 dC:/FPGA_DEMO/T09/FA_2b4b
+w1778130764
+8C:/FPGA_DEMO/T09/FA_2b4b/full_adder_4b.v
+FC:/FPGA_DEMO/T09/FA_2b4b/full_adder_4b.v
+!i122 10
+L0 17 41
+R4
+r1
+!s85 0
+31
+!s108 1778130794.000000
+!s107 C:/FPGA_DEMO/T09/FA_2b4b/full_adder_4b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_DEMO/T09/FA_2b4b/full_adder_4b.v|
+!i113 1
+R6
+R7
 vhalf_adder
 R8
 !i10b 1
@@ -121,6 +144,29 @@ r1
 R9
 !s107 C:/FPGA_DEMO/T09/full_adder_2b/tb_full_adder_2b.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_DEMO/T09/full_adder_2b/tb_full_adder_2b.v|
+!i113 1
+R6
+R7
+vtb_full_adder_4b
+!s110 1778130795
+!i10b 1
+!s100 M4=BbCT^fR;EJ=Q_Ic7792
+R1
+ITV<?FG35@hI9jmRP[A4_Z3
+R2
+R10
+w1778130036
+8C:/FPGA_DEMO/T09/FA_2b4b/tb_full_adder_4b.v
+FC:/FPGA_DEMO/T09/FA_2b4b/tb_full_adder_4b.v
+!i122 11
+L0 17 28
+R4
+r1
+!s85 0
+31
+!s108 1778130795.000000
+!s107 C:/FPGA_DEMO/T09/FA_2b4b/tb_full_adder_4b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_DEMO/T09/FA_2b4b/tb_full_adder_4b.v|
 !i113 1
 R6
 R7
