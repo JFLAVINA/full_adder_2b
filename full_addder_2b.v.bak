@@ -1,0 +1,26 @@
+module full_adder_2b(S,A,B);
+	//ports
+	input[1:0]A;
+	input[1:0]B;
+	output[2:0]S;
+	
+	//half-adder instance
+	half_adder ha(
+		.sum(S[0]),
+		.carry(),
+		.A(),
+		.B()
+	
+	
+	);
+	
+	
+	// full-adder instance
+	full_adder fa(
+	.sum(),
+	.cout(),
+	.A(),
+	.B(),
+	.cin()
+	);
+endmodule
